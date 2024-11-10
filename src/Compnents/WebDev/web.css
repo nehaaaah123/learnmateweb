@@ -1,0 +1,103 @@
+/* General container styling */
+.web-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* WebCard styling */
+.web-card {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  height: 100%;
+  justify-content: space-between;  /* This ensures that the button stays at the bottom */
+}
+
+.web-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.web-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Title styling */
+.web-title {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+/* About text styling */
+.web-about {
+  font-size: 0.9em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Course level styling */
+.web-level {
+  background-color: #f0f0f0;
+  color: #555;
+  font-size: 0.9em;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Review box styling */
+.web-review {
+  background-color: #e0e4e8;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+}
+
+/* Container for the button */
+.web-link-container {
+  margin-top: auto;  /* This ensures the link stays at the bottom of the card */
+  text-align: center;
+}
+
+/* Link styling */
+.web-link {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  color: white;
+  background-color: #454b52;
+  text-decoration: none;
+  font-size: 0.8em;
+  transition: background-color 0.3s ease;
+}
+
+.web-link:hover {
+  background-color: #0056b3;
+}
